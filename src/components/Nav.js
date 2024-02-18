@@ -2,7 +2,7 @@ import React from 'react'
 import './NavBar.css'
 import {Link} from 'react-router-dom'
 // import logo1 from '../Assests/logo1.png'
-export default function NavBar() {
+export default function Nav() {
   return (
   <div className='nav-container'>
     <div className='navigation'>

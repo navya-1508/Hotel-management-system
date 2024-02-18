@@ -1,12 +1,12 @@
-html {
+ html {
   height: 100%;
 }
 body {
   margin:0;
   padding:0;
   font-family: sans-serif;
-  background: linear-gradient(#141e30, #243b55);
-}
+  background:black;
+} 
 
 .sign-box {
   position: absolute;
@@ -15,10 +15,24 @@ body {
   width: 400px;
   padding: 40px;
   transform: translate(-50%, -50%);
-  background: rgba(0,0,0,.5);
+  background: rgb(34, 32, 32);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
+}
+
+h4{
+  color:white;
+  padding-top: 500px;
+  padding-left: 450px;
+} 
+/* .login{
+  color:white;
+  padding-top: 440px;
+  
+} */
+.logback{
+  color: #03e9f4;
 }
 
 .sign-box h2 {
@@ -165,3 +179,6 @@ body {
     bottom: 100%;
   }
 }
+
+
+

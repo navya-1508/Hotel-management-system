@@ -1,7 +1,13 @@
 import React from 'react'
 import './Login.css'
+// import NavBar from './NavBar'
+import Nav from './Nav'
+import {Link} from 'react-router-dom'
 export default function Login() {
   return (
+    <div>
+      {/* <NavBar/>*/}
+      <Nav/> 
     <div class="login-box">
     <h2>Login</h2>
     <form>
@@ -22,5 +28,8 @@ export default function Login() {
       </a>
     </form>
   </div>
+  <h4>I didn't have account ? <Link to='/signup' className='sinback'>Signup</Link></h4>
+  </div>
+  
   )
 }
